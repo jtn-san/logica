@@ -1,7 +1,7 @@
 /**
  * 
  */
-package helloworld;
+package fundamentos;
 
 /**
  * @author Jonathan
