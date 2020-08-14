@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fundamentos;
 
 /**
@@ -14,7 +11,7 @@ public class Fundamentos {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Hello World");
-		System.out.println("Aula um - Fundamentos e Váriáveis");
+		System.out.println("Aula um - Fundamentos e VÃ¡riÃ¡veis");
 		String nome = "Jonathan";
 		int idade = 27;
 		char sexo = 'M';
@@ -26,7 +23,7 @@ public class Fundamentos {
 		System.out.println("Temperatura: " + temperatura);
 		System.out.println("Ar Condicionado: " + arCondicionado);
 		System.out.println(" <--> ");
-		System.out.println("Aula dois - Operadores Aritméticos / Atribuições");
+		System.out.println("Aula dois - Operadores AritmÃ©ticos / AtribuiÃ§Ãµes");
 		double i = 10;
 		System.out.println("i = " + i);
 		System.out.println("i = " + i + " + 5 | i = " + (i + 5));
@@ -43,10 +40,10 @@ public class Fundamentos {
 		i--;
 		System.out.println("i--          | i = " + i);
 		System.out.println(" <--> ");
-		System.out.println("Aula três - Estruturas condicionais if else switch");
+		System.out.println("Aula trÃªs - Estruturas condicionais if else switch");
 		System.out.println("Uso do 'if'");
 		if (sexo == 'M') {
-			System.out.println("Alistamento militar obrigatório");
+			System.out.println("Alistamento militar obrigatÃ³rio");
 		}
 		System.out.println("");
 		System.out.println("Uso do 'if - else'");
@@ -60,32 +57,32 @@ public class Fundamentos {
 		if (idade < 16) {
 			System.out.println("PROIBIDO VOTA");
 		} else if (idade >= 18 && idade <= 70) {
-			System.out.println("VOTO OBRIGATÓRIO");
+			System.out.println("VOTO OBRIGATÃ“RIO");
 		} else {
 			System.out.println("VOTO FACULTATIVO");
 		}
 		System.out.println("");
 		System.out.println("Uso do 'switch case'");
 		System.out.println("1. Cadastro de clientes");
-		System.out.println("2. Cadastro de usuários");
-		System.out.println("3. Relatórios");
+		System.out.println("2. Cadastro de usuÃ¡rios");
+		System.out.println("3. RelatÃ³rios");
 		int opcao = 1;
 		switch (opcao) {
 		case 1:
 			System.out.println("CLIENTE");
 			break;
 		case 2:
-			System.out.println("USUÁRIOS");
+			System.out.println("USUÃRIOS");
 			break;
 		case 3:
-			System.out.println("RELATÓRIOS");
+			System.out.println("RELATÃ“RIOS");
 			break;
 		default:
-			System.out.println("Opção inválida");
+			System.out.println("OpÃ§Ã£o invÃ¡lida");
 			break;
 		}
 		System.out.println(" <--> ");
-		System.out.println("Aula quatro - Laços de repetições - for - while");
+		System.out.println("Aula quatro - LaÃ§os de repetiÃ§Ãµes - for - while");
 		System.out.println("");
 		System.out.println("Uso do 'for'");
 		for (int j = 10; j > 0; j--) {
