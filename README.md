@@ -1,2 +1,4 @@
 # logica_de_programacao
-Lógica de Programação
+Aprendendo Lógica de Programação com a linguagem JAVA. 
+
+
